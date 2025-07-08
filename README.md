@@ -8,6 +8,7 @@ This is my internship program at LARION as an IT Engineer Intern, where I was in
 ### 1. [Kubernetes Fundamentals & On-Prem Deployment](Project01/README.md)
 - **1.1**: Kubernetes Basics
   - What is Kubernetes?
+  - Kubernetes Architecture
   - Core Components (Pod, Node, Cluster, Deployment, Service)
   - kubectl Usage
 - **1.2**: On-Prem Kubernetes Deployment
