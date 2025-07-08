@@ -24,7 +24,7 @@
 Kubernetes is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications.
 
 ###  Kubernetes Architecture
-
+![Image](https://github.com/user-attachments/assets/97fb6121-b047-445c-acc2-6225ca57068d)
 
 ###  Core Components
 - **Pod**:  Pod is the smallest and most basic deployable unit. It represents a single instance of a running process in your cluster.
