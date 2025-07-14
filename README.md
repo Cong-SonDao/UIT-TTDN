@@ -19,6 +19,15 @@ This is my internship program at LARION as an IT Engineer Intern, where I was in
   - Installing Networking Plugin (e.g., Calico)
   - Validating Cluster Status
 
+### 2. [Helm Chart: Package Management for Kubernetes](Project02/README.md)
+- **2.1**: Introduction to Helm 
+  - What is Helm ?  
+  - Why we need it ?  
+- **2.2**: Helm Chart Structure and Components
+- **2.3**: Helm Cheat Sheet  
+- **2.4**: Hands-on: Creating, Customizing, and Deploying Applications with Helm Chart  
+- **2.5**: Practice Exercises and Reference Materials 
+
 ## Each Project includes:
  - Learning Objectives
  - Prerequisites

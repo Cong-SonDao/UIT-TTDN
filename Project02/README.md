@@ -26,12 +26,7 @@ Helm is an open-source package manager for Kubernetes. It helps you define, inst
 ### Why we need Helm ?
 Helm simplifies the deployment and management of applications on Kubernetes. Without Helm, deploying applications often requires writing and maintaining multiple complex YAML files, making the process error-prone and difficult to manage as the application grows. Helm packages Kubernetes resources into reusable charts, allowing for easier installation, configuration, versioning, and sharing of applications. This significantly improves productivity, consistency, and maintainability for DevOps teams working with Kubernetes.
 
-### Helm Components (Chart - Repository - Release - Revision)
-
-- **Helm Charts**: is a collection of files that defines the structure and the configuration of a set of Kubernetest objects that are part of the same application. 
-- **Helm Repository**: is a remote location for storing and sharing helm charts. It is similar to Github for storing code and DockerHub for storing docker images.
-- **Helm Release**: When installing a chart, a release is created. So, A release = a single installation of a Helm chart.
-- **Helm Revision**: is a specific version or snapshot of a release in Helm. Every time you install, upgrade, or roll back a Helm release, Helm creates a new revision number for that release. This allows you to track the history of changes made to the release and easily roll back to a previous revision if necessary. 
+## 2. Helm Chart Structure And Components
 
 ### Helm Chart Structure 
 
@@ -61,7 +56,14 @@ my-chart/
 ```
 Each file and directory has a specific role in defining, configuring, and deploying an application using Helm. Understanding the structure helps you customize and extend charts efficiently.
 
-### Helm Cheate Sheet
+### Helm Components (Chart - Repository - Release - Revision)
+
+- **Helm Charts**: is a collection of files that defines the structure and the configuration of a set of Kubernetest objects that are part of the same application. 
+- **Helm Repository**: is a remote location for storing and sharing helm charts. It is similar to Github for storing code and DockerHub for storing docker images.
+- **Helm Release**: When installing a chart, a release is created. So, A release = a single installation of a Helm chart.
+- **Helm Revision**: is a specific version or snapshot of a release in Helm. Every time you install, upgrade, or roll back a Helm release, Helm creates a new revision number for that release. This allows you to track the history of changes made to the release and easily roll back to a previous revision if necessary. 
+
+## 3. Helm Cheat Sheet
 ```bash
 # General Help
 helm --help                                      # Display help and usage for Helm commands
@@ -105,4 +107,6 @@ helm show all <chart>                            # Show all information about a 
 helm pull <chart>                                # Download a chart to local storage
 helm dependency list <chart>                     # List chart dependencies
 ```
+
+## 4. Hands-on: Creating, Customizing, and Deploying Applications with Helm Chart
 
